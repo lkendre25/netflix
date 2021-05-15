@@ -1,5 +1,15 @@
-import React from'react';
+import React from 'react';
 function Heading(){
-   return <h2>My name is Laxman Kendre</h2>; 
+  return <p> Laxman Kendre </p>
+   //return <p>Laxman</p>;
 }
-export default Heading;
+export {Heading};
+
+function Names(){
+   var arr = ['Laxman','Kamina','Geeta','Dwarka','Yamuna','Balaji','Hariom','Soham'];
+   
+      return <p>{ arr} </p>;
+
+}
+
+export {Names};
